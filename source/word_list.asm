@@ -245,7 +245,7 @@ RemoveWordListNode:
 ; ------------------------------------------------------------------------------
 
 .Last:
-	bsr.w	ResetList					; Reset list
+	bsr.w	ResetWordList					; Reset list
 	clr.w	(sp)
 	bra.s	.Finish
 
