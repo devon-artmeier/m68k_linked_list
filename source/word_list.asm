@@ -215,8 +215,8 @@ RemoveWordListNode:
 ; ------------------------------------------------------------------------------
 
 .Finish:
-	movem.l	(sp)+,d0/a0/a2					; Restore registers
 	movea.w	(sp)+,a1					; Get next node
+	movem.l	(sp)+,d0/a0/a2					; Restore registers
 	
 	cmpa.w	#0,a1						; Check if next node exists
 	rts
