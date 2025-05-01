@@ -1,7 +1,5 @@
 ; ------------------------------------------------------------------------------
-; List functions
-; ----------------------------------------------------------------------
-; Copyright (c) 2024 Devon Artmeier
+; Copyright (c) 2025 Devon Artmeier
 ;
 ; Permission to use, copy, modify, and/or distribute this software
 ; for any purpose with or without fee is hereby granted.
